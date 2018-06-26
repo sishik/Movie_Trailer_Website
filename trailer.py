@@ -3,19 +3,15 @@ import fresh_tomatoes
 import media
 
 title = "Escape Plan"
-storyline = "Ray Breslin is the world's foremost authority on structural security. After analyzing every high security prison "\
-    "and learning a vast array of survival skills so he can design escape-proof prisons, his skills are put to the test. He's framed"\
-    "and incarcerated in a master prison he designed himself. He needs to escape and find the person who put him behind bars."
+storyline = "Ray, an expert in security systems, is framed for a crime and sent to a high-tech prison."\
+            "In order to escape from the prison, he uses all his knowledge and special skills."
 poster_image = "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Escapeplanfilmposter.jpg/220px-Escapeplanfilmposter.jpg"
 trailer_youtube_link = "https://www.youtube.com/watch?v=CI4EjV_x_PQ"
 Escape_plan = media.Movie(title, storyline, poster_image, trailer_youtube_link)
 
 title = "X-Men:Apocalypse"
-storyline = "Since the dawn of civilization, he was worshipped as a god. Apocalypse, the first and most powerful mutant from Marvel’s X-Men universe,"\
-    "amassed the powers of many other mutants, becoming immortal and invincible. Upon awakening after thousands of years, he is disillusioned with the world"\
-    "as he finds it and recruits a team of powerful mutants, including a disheartened Magneto (Michael Fassbender),"\
-    "to cleanse mankind and create a new world order, over which he will reign. As the fate of the Earth hangs in the balance, Raven (Jennifer Lawrence)"\
-    "with the help of Professor X (James McAvoy) must lead a team of young X-Men to stop their greatest nemesis and save mankind from complete destruction."
+storyline = "The all-powerful mutant Apocalypse who is long revered as a god wants to cause extinction on earth."\
+            "The X-Men must work together to demolish his plans."
 poster_image = "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/X-Men_-_Apocalypse.jpg/220px-X-Men_-_Apocalypse.jpg"
 trailer_youtube_link = "https://www.youtube.com/watch?v=COvnHv42T-A"
 x_men_apocalypse = media.Movie(
@@ -25,12 +21,8 @@ x_men_apocalypse = media.Movie(
     trailer_youtube_link)
 
 title = "Kung Fu Panda"
-storyline = "Enthusiastic, big and a little clumsy, Po is the biggest fan of kung fu around... which doesn't exactly come in handy while working every day"\
-    "in his family's noodle shop. Unexpectedly chosen to fulfill an ancient prophecy, Po's dreams become reality when he joins the world of kung fu and studies"\
-    "alongside his idols, the legendary Furious Five—Tigress, Crane, Mantis, Viper and Monkey—under the leadership of their guru, Master Shifu. But before they"\
-    "know it, the vengeful and treacherous snow leopard Tai Lung is headed their way, and it's up to Po to defend everyone from the oncoming threat. Can he turn"\
-    "his dreams of becoming a kung fu master into reality? Po puts his heart — and his girth —into the task, and the unlikely hero ultimately finds that his greatest"\
-    "weaknesses turn out to be his greatest strengths."
+storyline = "When an obese Po the Panda, a kung fu enthusiast, gets selected as the Dragon Warrior, he decides to team up "\
+            "with the Furious Five and destroy the evil forces that threaten the Valley of Peace."
 poster_image = "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Kungfupanda.jpg/220px-Kungfupanda.jpg"
 trailer_youtube_link = "https://www.youtube.com/watch?v=PXi3Mv6KMzY"
 kung_fu_panda = media.Movie(
@@ -40,20 +32,22 @@ kung_fu_panda = media.Movie(
     trailer_youtube_link)
 
 title = "The Intern"
-storyline = "In “The Intern,” De Niro stars as Ben Whittaker, a 70-year-old widower who has discovered that retirement isn’t all it’s cracked up to be."\
-    "Seizing an opportunity to get back in the game, he becomes a senior intern at an online fashion site, founded and run by Jules Ostin (Hathaway)."
+storyline = "Seventy-year-old Ben Whittaker realises that retirement isn't an enjoyable experience. As a result, he decides "\
+            "to work as an intern at an online fashion store managed by an extremely sceptical boss."
 poster_image = "https://upload.wikimedia.org/wikipedia/en/c/c9/The_Intern_Poster.jpg"
 trailer_youtube_link = "https://www.youtube.com/watch?v=ZU3Xban0Y6A"
 the_intern = media.Movie(title, storyline, poster_image, trailer_youtube_link)
 
 title = "The Martian"
-storyline = ""
+storyline = "Mark Watney is stranded on the planet of Mars after his crew leaves him behind, presuming him to be dead due to a storm."\
+            "With minimum supply, Mark struggles to keep himself alive."
 poster_image = "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/The_Martian_film_poster.jpg/220px-The_Martian_film_poster.jpg"
 trailer_youtube_link = "https://www.youtube.com/watch?v=ej3ioOneTy8"
 the_martian = media.Movie(title, storyline, poster_image, trailer_youtube_link)
 
 title = "The Shawshank Redemption"
-storyline = ""
+storyline = "Andy Dufresne, a successful banker, is arrested for the murders of his wife and her lover, and is sentenced to life "\
+            "imprisonment at the Shawshank prison. He becomes the most unconventional prisoner."
 poster_image = "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg"
 trailer_youtube_link = "https://www.youtube.com/watch?v=6hB3S9bIaco"
 shawshank = media.Movie(title, storyline, poster_image, trailer_youtube_link)
